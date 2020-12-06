@@ -1,0 +1,12 @@
+spring:
+    security:
+        oauth2:
+            client:
+                provider:
+                    smartling:
+                        issuer-uri: https://okta.okta.com
+                registration:
+                    smartling:
+                        client-id: does-not-matter
+                        client-secret: does-not-matter
+                        client-name: example
